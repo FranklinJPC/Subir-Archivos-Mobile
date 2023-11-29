@@ -1,7 +1,11 @@
 /* To learn more about this file see: https://angular.io/config/tsconfig. */
+// Configuraciones 
 {
   "compileOnSave": false,
   "compilerOptions": {
+    // Configuraciones de cambios en el codigo
+    "strictPropertyInitialization": false,
+    "skipDefaultLibCheck": true,
     "baseUrl": "./",
     "outDir": "./dist/out-tsc",
     "forceConsistentCasingInFileNames": true,
@@ -25,9 +29,9 @@
     "useDefineForClassFields": false
   },
   "angularCompilerOptions": {
+    "strictTemplates": false,
     "enableI18nLegacyMessageIdFormat": false,
     "strictInjectionParameters": true,
-    "strictInputAccessModifiers": true,
-    "strictTemplates": true
+    "strictInputAccessModifiers": true
   }
 }
